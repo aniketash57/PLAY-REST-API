@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <title>Play-Rest</title>
+</head>
+<body>
+    <h1 class="title">Play-Rest-API</h1>
+    <div id="homepage">
+        <h1>Where are they?</h1>
+        <div id="customer-container">
+        <form id="search" name="contact-form">
+            <label>Enter your Latitude:</label>
+            <input class="lat" type="text" ref="lat" placeholder="latitude" required />
+            <label>Enter your Longitude:</label>
+            <input class="lng" type="text" ref="lng" placeholder="longitude" required />
+            <input class="submit" type="submit" value="Find PlayGrounds" onclick="submitForm()"/>
+        </form>
+            </div>
+        <div id="customers">
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+   
+</body>
+</html>
